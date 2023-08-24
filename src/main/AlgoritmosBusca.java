@@ -4,7 +4,7 @@ import java.util.List;
 
 public class AlgoritmosBusca {
     
-    public static String buscaBinaria(List list, int target){
+    public String buscaBinaria(List list, int target){
         /* Presume que a lista está ordenada */
         int indice_metade = list.size()/2;
 
